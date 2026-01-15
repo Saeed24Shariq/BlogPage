@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "slug": "getting-started-with-react",
+    "description": "A beginner-friendly guide to understanding the basics of React and building your first component.",
+    "author": "John Doe",
+    "date": "2025-01-05",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+    "tags": ["react", "javascript", "frontend"]
+  },
+  {
+    "id": 2,
+    "title": "Understanding JavaScript Closures",
+    "slug": "understanding-javascript-closures",
+    "description": "Learn how closures work in JavaScript and why they are so powerful in modern applications.",
+    "author": "Sarah Khan",
+    "date": "2025-01-10",
+    "image": "https://images.unsplash.com/photo-1627398242454-45a1465c2479",
+    "tags": ["javascript", "advanced-js"]
+  },
+  {
+    "id": 3,
+    "title": "CSS Grid vs Flexbox",
+    "slug": "css-grid-vs-flexbox",
+    "description": "A practical comparison between CSS Grid and Flexbox with real-world layout examples.",
+    "author": "Ali Raza",
+    "date": "2025-01-12",
+    "image": "https://images.unsplash.com/photo-1505685296765-3a2736de412f",
+    "tags": ["css", "frontend", "design"]
+  },
+  {
+    "id": 4,
+    "title": "Building REST APIs with Node.js",
+    "slug": "building-rest-apis-with-nodejs",
+    "description": "Step-by-step guide to creating scalable REST APIs using Node.js and Express.",
+    "author": "Emily Watson",
+    "date": "2025-01-15",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "tags": ["nodejs", "backend", "api"]
+  },
+  {
+    "id": 5,
+    "title": "Introduction to MongoDB",
+    "slug": "introduction-to-mongodb",
+    "description": "Learn the fundamentals of MongoDB and how to store data efficiently.",
+    "author": "Hamza Ahmed",
+    "date": "2025-01-18",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+    "tags": ["mongodb", "database", "backend"]
+  },
+  {
+    "id": 6,
+    "title": "Mastering Git & GitHub",
+    "slug": "mastering-git-and-github",
+    "description": "Essential Git and GitHub commands every developer should know.",
+    "author": "Ayesha Noor",
+    "date": "2025-01-20",
+    "image": "https://images.unsplash.com/photo-1526378722484-d70c93f9c0e1",
+    "tags": ["git", "github", "version-control"]
+  },
+  {
+    "id": 7,
+    "title": "Improving Web Performance",
+    "slug": "improving-web-performance",
+    "description": "Tips and techniques to optimize your website for faster load times.",
+    "author": "Michael Lee",
+    "date": "2025-01-22",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "tags": ["performance", "web", "optimization"]
+  },
+  {
+    "id": 8,
+    "title": "State Management with Redux Toolkit",
+    "slug": "state-management-with-redux-toolkit",
+    "description": "Learn how Redux Toolkit simplifies state management in React apps.",
+    "author": "Shariq",
+    "date": "2025-01-25",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    "tags": ["react", "redux", "state-management"]
+  },
+  {
+    "id": 9,
+    "title": "Introduction to Astro",
+    "slug": "introduction-to-astro",
+    "description": "Explore Astro and learn how to build fast, content-focused websites.",
+    "author": "Daniel Smith",
+    "date": "2025-01-28",
+    "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+    "tags": ["astro", "frontend", "ssg"]
+  },
+  {
+    "id": 10,
+    "title": "Deploying Apps with Netlify",
+    "slug": "deploying-apps-with-netlify",
+    "description": "A complete guide to deploying modern web applications using Netlify.",
+    "author": "Fatima Zahra",
+    "date": "2025-01-30",
+    "image": "https://images.unsplash.com/photo-1605379399642-870262d3d051",
+    "tags": ["deployment", "netlify", "devops"]
+  }
+]
