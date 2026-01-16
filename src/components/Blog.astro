@@ -22,7 +22,8 @@ import blog from "./../blogs/blogs.json";
                                 src={item.image}
                                 alt={item.slug}
                                 decoding="async"
-                                loading="lazy"
+                                loading="eager"
+                                fetchpriority="high"
                             />
                             <h1 class="text-lg sm:text-xl font-bold">{item.title}</h1>
                             <p>{item.description}</p>
