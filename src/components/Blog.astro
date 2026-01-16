@@ -21,12 +21,18 @@ import { Image } from "astro:assets";
                     >
                         <div class="mx-3">
                             <img
-                                src={`${item.image}?w=1200&h=600&fit=crop&auto=format&q=80`}
+                                class="w-full h-[220px] sm:h-[300px] object-cover rounded-t-xl"
+                                src={`${item.image}?w=640&h=220&fit=crop&auto=format&q=75`}
+                                srcset={`
+    ${item.image}?w=360&h=200&fit=crop&auto=format&q=70 360w,
+    ${item.image}?w=640&h=220&fit=crop&auto=format&q=75 640w,
+    ${item.image}?w=960&h=300&fit=crop&auto=format&q=80 960w
+  `}
+                                sizes="(max-width: 640px) 100vw, 600px"
                                 alt={item.slug}
-                                width="1200"
-                                height="600"
-                                loading="eager"
-                                fetchpriority="high"
+                                width="640"
+                                height="220"
+                                loading="lazy"
                                 decoding="async"
                             />
 
