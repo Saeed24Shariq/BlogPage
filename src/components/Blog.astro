@@ -2,13 +2,16 @@
 import astroLogo from "../assets/astro.svg";
 import background from "../assets/background.svg";
 import blog from "./../blogs/blogs.json";
+import { Image } from "astro:assets";
 ---
 
 <div class="flex flex-col px-5">
     <div class="p-5 flex items-center justify-center">
         <h1 class="text-4xl font-black">Blogs</h1>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4 pb-5">
+    <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4 pb-5"
+    >
         {
             blog.map((item, index) => {
                 return (
@@ -18,13 +21,18 @@ import blog from "./../blogs/blogs.json";
                     >
                         <div class="mx-3">
                             <img
-                                class="flex flex-col items-center h-[300px] w-[600px] rounded-t-xl"
-                                src={item.image}
+                                src={`${item.image}?w=1200&h=600&fit=crop&auto=format&q=80`}
                                 alt={item.slug}
-                                decoding="async"
+                                width="1200"
+                                height="600"
                                 loading="eager"
+                                fetchpriority="high"
+                                decoding="async"
                             />
-                            <h1 class="text-lg sm:text-xl font-bold">{item.title}</h1>
+
+                            <h1 class="text-lg sm:text-xl font-bold">
+                                {item.title}
+                            </h1>
                             <p>{item.description}</p>
                             <div class="flex flex-col sm:flex-row">
                                 <span class="font-bold flex-1">
