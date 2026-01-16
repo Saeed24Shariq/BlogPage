@@ -20,7 +20,10 @@ import blog from "./../blogs/blogs.json";
                             <img
                                 class="flex flex-col items-center h-[300px] w-[600px] rounded-t-xl"
                                 src={item.image}
-                                alt=""
+                                alt={item.slug}
+                                height="800"
+                                width="500"
+                                loading="lazy"
                             />
                             <h1 class="text-lg sm:text-xl font-bold">{item.title}</h1>
                             <p>{item.description}</p>
