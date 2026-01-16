@@ -11,7 +11,7 @@ export default defineConfig({
             tailwindcss(),
         ]
     },
-    site: 'blogplage.netlify.app',
+    site: 'https://blogpageastro.netlify.app',
     base: '/',
     adapter: netliify(),
 });
