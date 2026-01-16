@@ -1,6 +1,8 @@
 // @ts-check
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'astro/config';
+import netliify from '@astrojs/netlify';
+
 
 // https://astro.build/config
 export default defineConfig({
@@ -8,5 +10,8 @@ export default defineConfig({
         plugins: [
             tailwindcss(),
         ]
-    }
+    },
+    site: 'blogplage.netlify.app',
+    base: '/',
+    adapter: netliify(),
 });
